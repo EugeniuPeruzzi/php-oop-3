@@ -1,7 +1,11 @@
 <?php 
     require __DIR__.'/models/sistem_comunication.php';
-    $z = new Comunication('ciccio' , 'pasticcio', 'Ciao come stai?', 'lol');
-    var_dump($z);
+    require __DIR__.'/models/messages.php';
+    require __DIR__.'/models/email.php';
+    require __DIR__.'/models/push_notify.php';
+
+    $mail_1 = new Email('antonello_stefania@booleaner.com' , 'quintus.devsus@renaeloob.com', 'Mail Object', 'Mail Content', 'Mail Atachment', true);
+    var_dump($mail_1);
 ?>
 
 
