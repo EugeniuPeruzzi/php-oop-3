@@ -6,9 +6,9 @@
         public static $ledColor = 'green';
 
 
-        function __construct( String $sender, String $reciver, String $msgObject, String $content, String $setAsRead, Bool $accettazioneRisposta ){
+        function __construct( String $sender, String $reciver, String $msgObject, String $content, Bool $setAsRead, Bool $accettazioneRisposta ){
             parent::__construct($sender, $reciver, $msgObject, $content);
-            $this->getSetAsRead = $getSetAsRead;
+            $this->setAsRead = $setAsRead;
             $this->accettazioneRisposta = $accettazioneRisposta;
         }
 
