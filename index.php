@@ -1,7 +1,7 @@
 <?php 
-
-
-
+    require __DIR__.'/models/sistem_comunication.php';
+    $z = new Comunication('ciccio' , 'pasticcio', 'Ciao come stai?', 'lol');
+    var_dump($z);
 ?>
 
 
@@ -23,7 +23,8 @@
 </head>
 
 <body>
-    <h1>Hello world</h1>
+
+
 </body>
 
 </html>
