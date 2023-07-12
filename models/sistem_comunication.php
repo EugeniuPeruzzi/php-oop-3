@@ -6,7 +6,7 @@
         private $reciver;
         private $msgObject;
         private $content;
-        public $notification = 'DRIN DREN DRUN';
+        public static $notification = 'DRIN DREN DRUN';
         
         function __construct(String $sender, String $reciver, String $msgObject, String $content){
             $this->sender = $sender;

@@ -21,11 +21,11 @@
         }
         
         public function getReply() {
-            return 'Sms reply sent';
+            return '<i class="fa-solid fa-comment-dots"></i>';
         }
         
         public function getSend(){
-            return 'Sms sent';
+            return '<i class="fa-solid fa-check"></i>';
         }
         
 

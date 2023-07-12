@@ -16,15 +16,15 @@
         }
 
         public function getForwad(){
-            return 'Message forwarder';
+            return '<i class="fa-solid fa-share-from-square"></i>';
         }
         
         public function getPrint() {
-            return 'Message printed';
+            return '<i class="fa-solid fa-print"></i>';
         }
         
         public function getSend(){
-            return 'Mail sent';
+            return '<i class="fa-regular fa-paper-plane"></i>';
         }
         
     }

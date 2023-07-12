@@ -19,12 +19,12 @@
                 return $this->icon;
             }
 
-            public function click(){
-                return 'Marked as read';
+            public function getClick(){
+                return '<i class="fa-regular fa-bookmark"></i>';
             }
 
-            public function send(){
-                return 'Notification sent';
+            public function getSend(){
+                return '<i class="fa-solid fa-check-double"></i>';
             }
 
     }
